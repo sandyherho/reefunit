@@ -1,0 +1,29 @@
+# Byte-compiled and packaging artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editors and notebooks
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Intermediate arrays shared between scripts; regenerated on demand.
+outputs/cache/
+
+# Note: outputs/ is otherwise deliberately NOT ignored. Figures, GIFs,
+# CSVs, and reports are
+# committed so the results can be inspected without running anything.

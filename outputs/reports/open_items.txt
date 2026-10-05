@@ -1,0 +1,47 @@
+Limitations and open items
+==========================
+
+Assumptions that bound the results
+----------------------------------
+planar motion: oblique and directionally spread waves, rocking
+about a corner, and yaw are not represented; head-on loading is
+the worst case for a given height in this model but not in three
+dimensions
+rigid, flat bed: scour, burial, rubble mobility and bearing
+failure are absent, and these are common on degraded reefs
+non-breaking waves: the Morison description is not used inside
+the surf zone, so reef flats and crests are out of scope
+force coefficients are ranges, not measurements; the frontal
+area is held fixed as the unit rotates
+frame drag sums the rods with no sheltering, and added mass is
+applied isotropically by default; both are varied in fig07, and
+the ranking of the units survives, though the frame thresholds
+move by up to a quarter
+colonies are hemispheres at a single mounting height; merging
+colonies, canopy flow and colony breakage are not modelled, and
+colony radius is capped at 0.10 m for that reason
+colony weight and colony drag both grow with radius and partly
+cancel; which one wins depends on the assumed colony density and
+solid fraction, which are uncalibrated
+
+Results that are weaker than they look
+--------------------------------------
+mounting height changes nothing while sliding governs, which is
+the case for four of the five reference geometries, so the
+top-versus-side comparison is informative only for staked units
+the quasi-static criterion is conservative for wave loading: a
+wave must exceed it by a margin before the dynamic problem
+actually overturns a unit
+
+Natural next steps
+------------------
+three-dimensional rocking and oblique seas
+linked units: webs of spiders as coupled nonsmooth oscillators
+design optimisation over a continuous family of geometries
+scour and soft-bed settlement
+force coefficients for porous frames with grown colonies from
+computational fluid dynamics, which would replace the widest
+uncertainty range in the model
+a field screening tool and a printed chart, checked with two or
+three restoration teams before publication
+

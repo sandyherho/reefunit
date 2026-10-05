@@ -1,0 +1,61 @@
+Reference units, geometry and derived mechanical data
+=====================================================
+
+Bare units
+----------
+unit                material      mass_kg      W_sub_N      b_m          z_p_m        h_c_m        
+block               concrete      92.00        500.3        0.200        0.125        0.125        
+dome                concrete      136.47       742.1        0.450        0.191        0.206        
+table               steel         9.83         83.8         0.500        0.480        0.484        
+spider              coated steel  6.21         46.4         0.476        0.108        0.095        
+tetra               concrete      51.69        281.1        0.289        0.210        0.182        
+
+unit                C_D A m2      C_L A m2     k^2 m2       alpha_deg    b/z_p        H_m          
+block               0.1200        0.0640       0.0185       58.0         1.60         0.25         
+dome                0.2004        0.1336       0.0713       65.4         2.36         0.45         
+table               0.1152        0.0000       0.1949       45.9         1.04         0.60         
+spider              0.0954        0.0000       0.0981       78.7         4.41         0.35         
+tetra               0.3824        0.0000       0.1277       57.7         1.37         0.75         
+
+Grown units
+-----------
+
+with reference colonies at radius 0.1 m, top mounted:
+unit                n_colonies    C_D A m2     z_p m        b/z_p        W_sub N      mass kg      
+block               4             0.1828       0.183        1.10         519.8        98.3         
+dome                12            0.3889       0.283        1.59         800.7        155.3        
+table               20            0.4294       0.599        0.83         181.4        41.2         
+spider              12            0.2839       0.250        1.90         104.9        25.1         
+tetra               12            0.5709       0.328        0.88         339.6        70.5         
+
+Materials
+---------
+concrete: 2300 kg m^-3
+limestone: 2600 kg m^-3
+ceramic: 2000 kg m^-3
+steel: 7850 kg m^-3
+coated steel: 4285 kg m^-3
+polymer: 1380 kg m^-3
+
+Provenance and rescaling
+------------------------
+The dimensions below are a parameter set, not measurements of a
+particular design, and any statement about a named structure is
+a statement about these numbers.  In the drag-dominated limit
+the quasi-static thresholds depend on the geometry only through
+W'/(C_D A) and z_p/b, and the critical velocity scales as
+sqrt(W'/(C_D A)), so a reader with their own unit can rescale
+the results rather than rerun them.
+
+Notes
+-----
+Dimensions and coefficients are illustrative of units deployed
+on Indonesian reefs and are not measurements of a particular
+design.  Frames are built from rods in three dimensions and
+their mass, inertia, frontal area and centre of pressure follow
+from that geometry; the block and dome use closed forms.
+b is the half-distance between the base contacts that act as
+pivots; for the hexagonal spider it is the apothem of the foot
+ring and for the tetrahedral frame the inradius of the base
+triangle, the conservative choice in each case.
+

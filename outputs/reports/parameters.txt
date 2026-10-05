@@ -1,0 +1,57 @@
+Model parameters and reference conditions
+=========================================
+
+Fluid
+-----
+seawater density 1025 kg m^-3
+gravity 9.81 m s^-2
+depth-limited breaking index 0.78
+Stokes second order used below Ursell 26
+
+Site classes (illustrative design conditions)
+---------------------------------------------
+site class          H_des m       T s          U_c m/s      depth m      
+sheltered           0.80          5.0          0.00         5.0          
+monsoon             2.00          8.0          0.00         8.0          
+swell               3.00          14.0         0.00         10.0         
+strait              1.20          6.0          0.80         8.0          
+
+Colonies
+--------
+initial radius 0.030 m, reference grown radius 0.100 m
+bulk density 1500 kg m^-3 over a solid fraction of 0.5
+drag coefficient 1.0, frontal area pi r^2/2 per colony
+counts and mounting heights (fraction of unit height):
+  block: n = 4, top 1.00 H, side 0.50 H
+  dome: n = 12, top 0.75 H, side 0.35 H
+  table: n = 20, top 1.00 H, side 0.50 H
+  spider: n = 12, top 0.80 H, side 0.40 H
+  tetra: n = 12, top 0.70 H, side 0.35 H
+
+Internal solitary wave reference state
+--------------------------------------
+upper layer h1 = 12.0 m, lower layer h2 = 3.0 m, total depth 15.0 m
+density step 5.0 kg m^-3, reduced gravity 0.04785 m s^-2
+linear speed c0 = 0.3389 m s^-1
+nonlinear coefficient a1 = 0.1271 s^-1
+dispersion coefficient beta = 2.033 m^3 s^-1
+at eta0 = 1 m: V = 0.3813 m s^-1, lam = 13.86 m, near-bed peak 0.1130 m s^-1
+the lower layer is thinner than the upper one, so a1 > 0 and the
+soliton is one of elevation, as expected for a wave that has
+shoaled onto a shelf
+
+Uncalibrated coefficient ranges
+-------------------------------
+CD_factor: 0.7 to 1.5
+CL_factor: 0.0 to 2.0
+C_a: 0.5 to 1.5
+mu: 0.4 to 0.8
+
+Numerics
+--------
+time steps per wave period: 400 for production runs
+Moreau-Jean theta = 1/2, projected Gauss-Seidel on the
+Delassus operator, 20 to 30 sweeps per step
+contacts count as closed within 1e-8 m
+normal restitution e = 0 at the base contacts
+

@@ -1,0 +1,44 @@
+Closed-form results used and checked
+====================================
+
+Quasi-static onsets, drag-dominated limit
+-----------------------------------------
+Theta = F_D/W' and Lambda = C_L A_L/(C_D A):
+  Theta_slide = mu/(1 + mu Lambda)
+  Theta_tip   = 1/(z_p/b + Lambda)
+  Theta_lift  = 1/Lambda
+sliding precedes tipping if and only if b/z_p > mu, a
+comparison from which lift cancels identically
+
+unit                Theta_slide   Theta_tip    Theta_lift   first mode   
+block               0.455         0.863        1.875        slide        
+dome                0.429         0.917        1.500        slide        
+table               0.600         1.042        inf          slide        
+spider              0.600         4.414        inf          slide        
+tetra               0.600         1.373        inf          slide        
+
+Ratchet drift near threshold
+----------------------------
+with the load peaking at F = mu N (1 + eps) and curvature
+F'' = -F c omega^2 there, the slip episode runs from -tau0 to
+2 tau0 with tau0 = sqrt(2 eps/kappa), kappa = (1+eps) c omega^2,
+and the displacement is
+  Delta_0 = (9/2) (mu N/m_x) eps^2 / kappa
+for pure drag on u = U_c + u_b cos(omega t), c = 2 u_b/(U_c+u_b)
+drag on the relative velocity adds a damping
+gamma = rho C_D A |u_p|/m_x and, to first order in
+Gamma = gamma tau0,
+  Delta = Delta_0 (1 - (6/5) Gamma + O(Gamma^2))
+
+Impact map
+----------
+angular velocity across a pivot change at theta = 0:
+  ratio = (I_G + m_x (h_c^2 - b^2))/(I_G + m_x R^2)
+which for a solid rectangle in vacuum is Housner's
+  1 - (3/2) sin^2(alpha)
+
+Two-layer KdV soliton
+---------------------
+eta = eta0 sech^2((x - V t)/lam),  V = c0 + a1 eta0/3,
+lam^2 = 12 beta/(a1 eta0), near-bed velocity u2 = c0 eta/h2
+

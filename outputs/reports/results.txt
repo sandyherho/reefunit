@@ -1,0 +1,39 @@
+Principal results
+=================
+
+Numbers quoted in the manuscript
+--------------------------------
+critical wave height at the monsoon reference condition
+unit                polymer       ceramic      concrete     limestone    coated ste   steel        
+block               1.80          2.99         3.38         3.72         5.09         6.86         
+dome                1.74          2.81         3.18         3.49         4.76         6.42         
+table               0.44          0.73         0.83         0.91         1.29         1.82         
+spider              0.52          0.85         0.97         1.07         1.51         2.11         
+tetra               0.99          1.60         1.81         2.00         2.77         3.81         
+material enters the quasi-static criteria only through
+the submerged weight, so H_c scales as sqrt(rho_s - rho)
+at fixed geometry in the drag-dominated limit
+
+ratchet drift, concrete block, T = 8 s, u_b = 1.8 m/s:
+  drift per cycle at U_c/u_b = 0.2: 0.01 cm
+  drift per cycle at U_c/u_b = 0.4: 33.14 cm
+  relative-velocity drag reduces the drift by the factor
+  1 - (6/5) Gamma, verified for Gamma up to 0.62
+
+H_c over the monsoon design height, as deployed and after
+five years of colony growth at 0.03 m per year:
+unit                t = 0         t = 5 yr     staked t = 5 yr
+block               1.67          1.50         1.73         
+dome                1.55          1.32         1.52         
+table               0.83          0.70         0.82         
+spider              0.71          0.66         0.80         
+tetra               0.89          0.82         0.98         
+
+sensitivity to the three weakest assumptions:
+  frame sheltering at 0.6 raises H_c of the frames by up to 26 percent
+  interquartile spread of H_c under all assumptions together,
+  as a fraction of the median: block 0.17, dome 0.18, table 0.28, spider 0.29, tetra 0.22
+  the ranking by H_c is reproduced exactly in 97.5 percent of 4000 samples
+  applying added mass to the rotation as well as to the
+  translations moves the overturning threshold by 0.4 percent
+

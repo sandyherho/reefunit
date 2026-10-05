@@ -1,0 +1,32 @@
+Figures and animations
+======================
+
+Contents
+--------
+fig00 schematic of the five units and the planar load model
+fig01 near-bed forcing of the site classes and of a soliton
+fig02 failure-mode plane and onset under a ramped current
+fig03 critical wave height over depth and period, and the
+      structure by material matrix
+fig04 ratchet drift, damping correction and drift rate
+fig05 soliton amplitude, margin consumed, displacement per passage
+fig06 growth of colonies against the design wave
+fig07 sensitivity to the three weakest assumptions
+fig08 verification
+
+anim01 the orbital velocity field and the five units on the bed
+anim02 a block walking under waves on a current
+anim03 a two-layer soliton passing over a hexagonal spider
+anim04 the critical-height map as colonies grow
+
+Reproduction
+------------
+each figure script writes its panels' data to outputs/data as
+CSV and its derived numbers to outputs/cache; the reports are
+written from those caches by scripts/make_reports.py
+the checks summarised in verification.txt also run as a pytest
+suite in tests/, which takes a few seconds
+the animations are rendered from the same solvers and carry a
+colour bar in SI units; anim04 caches its maps, so a rerun is
+fast once they exist
+

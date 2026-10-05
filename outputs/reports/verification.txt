@@ -1,0 +1,46 @@
+Verification of the solvers
+===========================
+
+Residuals and cross-checks
+--------------------------
+restitution, max |simulated - closed form|: 4.386317566263e-03
+dispersion relation residual: 2.220446049250e-16
+KdV soliton residual (relative): 5.453391918425e-09
+compiled kernel vs NumPy reference, max |dX|: 1.734723475977e-16
+compiled kernel vs NumPy reference, max |dtheta|: 8.389850761993e-17
+contact complementarity residual (worst step): 7.406480564007e-06
+
+free rocking, time to first impact (reference 0.264421 s):
+  errors 2.354e-05, 2.034e-05, 1.239e-05, 8.665e-06, 6.882e-06
+  the error flattens near 1e-5 s, a floor set by the closed-gap
+  tolerance rather than by the step size
+stick-slip drift per cycle (reference 0.008662 m):
+  errors 1.348e-04, 8.036e-05, 3.940e-05, 1.904e-05, 9.458e-06
+rocking peak rotation (reference 0.113696 rad):
+  errors 2.475e-02, 1.280e-02, 5.292e-03, 1.712e-03, 2.226e-04
+
+slow-ramp onset against the closed forms:
+  max relative error 8.394561440372e-04
+  median relative error 5.253506375598e-04
+  agreement on which mode comes first: 100.0 percent
+event-driven sliding reference against the time-stepper:
+  max relative difference in drift per cycle 2.330383137587e-03
+
+What is verified
+----------------
+the contact solver reproduces the angular-momentum impact map
+and, in vacuum for a solid rectangle, Housner's restitution
+the time-stepper converges to two independent event-driven
+solvers that share no code with it, one for pure sliding and
+one for single-pivot rocking
+onsets under a slowly ramped current reproduce the closed-form
+thresholds and the predicted first mode
+the compiled kernel and the NumPy reference agree to round-off
+the wave and soliton kinematics satisfy their own equations
+
+What is not verified
+--------------------
+nothing here is validated against field or laboratory data;
+the force coefficients, colony properties and site classes are
+assumptions, and the results are relative rather than absolute
+

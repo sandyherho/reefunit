@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "reefunit: wave-driven sliding, ratcheting and overturning of coral transplant units"
+abstract: >-
+  An idealized, uncalibrated model of the mechanical failure of coral
+  transplant units under waves, currents and internal solitary waves.  A
+  unit is a planar rigid body on a rigid bed with two unilateral
+  frictional contacts, loaded through a Morison description of near-bed
+  wave kinematics.  The library provides closed-form stability
+  thresholds, a Moreau-Jean time-stepper with two independent
+  event-driven reference solvers, and the figure and report pipeline of
+  the accompanying paper.
+type: software
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/sandyherho/reefunit"
+keywords:
+  - coral restoration
+  - transplant unit stability
+  - nonsmooth dynamics
+  - rocking block
+  - internal solitary wave
+  - Indonesia
+authors:
+  - family-names: Herho
+    given-names: Sandy Hardian Susanto
+    email: sandyherho@itb.ac.id
+    affiliation: "Bandung Institute of Technology"
+  - family-names: Anwar
+    given-names: Iwan Pramesti
+    affiliation: "Bandung Institute of Technology"
+  - family-names: Handayani
+    given-names: Alfita Puspa
+    affiliation: "Bandung Institute of Technology"
+  - family-names: Khadami
+    given-names: Faruq
+    affiliation: "Bandung Institute of Technology"
+  - family-names: Sujatmiko
+    given-names: Karina Aprilia
+    affiliation: "Bandung Institute of Technology"
+  - family-names: Irawan
+    given-names: Dasapta Erwin
+    affiliation: "Bandung Institute of Technology"

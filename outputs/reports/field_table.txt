@@ -1,0 +1,112 @@
+Hold-down requirement per unit (tabel kebutuhan pemberat)
+=========================================================
+
+Required hold-down force and equivalent submerged ballast mass
+--------------------------------------------------------------
+unit                depth m       F_req N      ballast kg   mode         
+(90th percentile over the coefficient ranges, safety factor 1.5)
+
+site class: sheltered  (H = 0.8 m, T = 5.0 s, U_c = 0.0 m/s)
+block               3             0            0            slide        
+block               5             0            0            slide        
+block               8             0            0            slide        
+block               12            0            0            slide        
+dome                3             0            0            slide        
+dome                5             0            0            slide        
+dome                8             0            0            slide        
+dome                12            0            0            slide        
+table               3             4            0            slide        
+table               5             0            0            slide        
+table               8             0            0            slide        
+table               12            0            0            slide        
+spider              3             26           3            slide        
+spider              5             0            0            slide        
+spider              8             0            0            slide        
+spider              12            0            0            slide        
+tetra               3             22           2            slide        
+tetra               5             0            0            slide        
+tetra               8             0            0            slide        
+tetra               12            0            0            slide        
+
+site class: monsoon  (H = 2.0 m, T = 8.0 s, U_c = 0.0 m/s)
+block               3             363          37           slide        
+block               5             0            0            slide        
+block               8             0            0            slide        
+block               12            0            0            slide        
+dome                3             743          76           slide        
+dome                5             87           9            slide        
+dome                8             0            0            slide        
+dome                12            0            0            slide        
+table               3             600          61           slide        
+table               5             290          30           slide        
+table               8             118          12           slide        
+table               12            24           2            slide        
+spider              3             520          53           slide        
+spider              5             263          27           slide        
+spider              8             120          12           slide        
+spider              12            43           4            slide        
+tetra               3             1990         203          slide        
+tetra               5             963          98           slide        
+tetra               8             391          40           slide        
+tetra               12            82           8            slide        
+
+site class: swell  (H = 3.0 m, T = 14.0 s, U_c = 0.0 m/s)
+block               3             739          75           slide        
+block               5             688          70           slide        
+block               8             217          22           slide        
+block               12            0            0            slide        
+dome                3             1390         142          slide        
+dome                5             1303         133          slide        
+dome                8             491          50           slide        
+dome                12            41           4            slide        
+table               3             939          96           slide        
+table               5             897          91           slide        
+table               8             503          51           slide        
+table               12            285          29           slide        
+spider              3             801          82           slide        
+spider              5             766          78           slide        
+spider              8             440          45           slide        
+spider              12            259          26           slide        
+tetra               3             3115         317          slide        
+tetra               5             2974         303          slide        
+tetra               8             1668         170          slide        
+tetra               12            943          96           slide        
+
+site class: strait  (H = 1.2 m, T = 6.0 s, U_c = 0.8 m/s)
+block               3             428          44           slide        
+block               5             162          17           slide        
+block               8             0            0            slide        
+block               12            0            0            slide        
+dome                3             855          87           slide        
+dome                5             396          40           slide        
+dome                8             88           9            slide        
+dome                12            0            0            slide        
+table               3             656          67           slide        
+table               5             439          45           slide        
+table               8             297          30           slide        
+table               12            204          21           slide        
+spider              3             566          58           slide        
+spider              5             387          39           slide        
+spider              8             269          27           slide        
+spider              12            192          20           slide        
+tetra               3             2178         222          slide        
+tetra               5             1457         149          slide        
+tetra               8             983          100          slide        
+tetra               12            676          69           slide        
+
+How to read it / Cara membaca
+-----------------------------
+F_req is the extra downward force, applied through the base,
+that keeps every quasi-static ratio at or below 1/1.5 under the
+design wave of that site class at that depth; the ballast mass
+is F_req/g, an effective submerged mass.
+
+F_req adalah gaya tekan ke bawah tambahan pada dasar unit yang
+menjaga rasio kuasi-statik tetap di bawah 1/1,5 pada gelombang
+rencana kelas lokasi tersebut; massa pemberat adalah F_req/g,
+yaitu massa terendam efektif.
+
+The table is a screening aid, not a design code.  It assumes a
+rigid bed, non-breaking waves, and the stated coefficient
+ranges, and it says nothing about coral survival.
+
