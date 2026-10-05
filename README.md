@@ -1,5 +1,16 @@
 # Supplementary Materials: **A reduced-order model of coral transplant unit stability under waves and currents**
 
+[![DOI](https://zenodo.org/badge/1406054629.svg)](https://doi.org/10.5281/zenodo.23167396)
+[![License: MIT](https://img.shields.io/badge/License-MIT-A31F34?style=flat-square)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
+[![NumPy](https://img.shields.io/badge/NumPy-%E2%89%A51.24-013243?style=flat-square&logo=numpy&logoColor=white)](https://numpy.org)
+[![SciPy](https://img.shields.io/badge/SciPy-%E2%89%A51.10-8CAAE6?style=flat-square&logo=scipy&logoColor=white)](https://scipy.org)
+[![Numba](https://img.shields.io/badge/Numba-%E2%89%A50.58-00A3E0?style=flat-square&logo=numba&logoColor=white)](https://numba.pydata.org)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-%E2%89%A53.7-11557C?style=flat-square)](https://matplotlib.org)
+[![Pillow](https://img.shields.io/badge/Pillow-%E2%89%A510.0-4B8BBE?style=flat-square)](https://python-pillow.org)
+[![pytest](https://img.shields.io/badge/pytest-15%20passing-0A9EDC?style=flat-square&logo=pytest&logoColor=white)](tests)
+[![Lint](https://img.shields.io/badge/pycodestyle%20%7C%20pydocstyle-clean-1E7B7B?style=flat-square)](https://peps.python.org/pep-0008/)
+
 **Authors:** Sandy H. S. Herho, Iwan P. Anwar, Faruq Khadami, Karina A. Sujatmiko, Alfita P. Handayani, and  Dasapta E. Irawan, 
 
 Idealized model of the mechanical failure of coral transplant units under
