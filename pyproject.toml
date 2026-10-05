@@ -12,9 +12,9 @@ license = { file = "LICENSE" }
 authors = [
     { name = "Sandy H. S. Herho" },
     { name = "Iwan P. Anwar" },
-    { name = "Alfita P. Handayani" },
     { name = "Faruq Khadami" },
     { name = "Karina A. Sujatmiko" },
+    { name = "Alfita P. Handayani" },
     { name = "Dasapta E. Irawan" }
 ]
 keywords = ["coral restoration", "transplant unit", "nonsmooth dynamics",

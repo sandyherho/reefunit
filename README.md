@@ -1,5 +1,7 @@
 # Supplementary Materials: **A reduced-order model of coral transplant unit stability under waves and currents**
 
+**Authors:** Sandy H. S. Herho, Iwan P. Anwar, Faruq Khadami, Karina A. Sujatmiko, Alfita P. Handayani, and  Dasapta E. Irawan, 
+
 Idealized model of the mechanical failure of coral transplant units under
 waves, currents and internal solitary waves, written from scratch in
 Python with no calibration and no external data.
